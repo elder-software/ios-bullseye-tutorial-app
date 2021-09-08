@@ -18,14 +18,28 @@ struct ContentView: View {
                     .lineSpacing(4.0)
                     .font(.footnote)
                 Text("89")
+                    .kerning(-1.0)
+                    .font(.largeTitle)
+                    .fontWeight(.black)
                 HStack {
                     Text("1")
+                        .bold()
+                        .font(.body)
+                        .padding()
                     Slider(value: .constant(50), in: 1.0...100)
+                        .accentColor(.red)
                     Text("100")
+                        .bold()
+                        .font(.body)
+                        .padding()
                 }
             }
             Button(action: {}) {
                 Text("Hit me")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.accentColor)
+                
             }
         }
     }
