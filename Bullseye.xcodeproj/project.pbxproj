@@ -72,6 +72,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE3BD5A72784FB5000BC9FC7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EE3BD5A82784FB5A00BC9FC7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE67385826E4270700A28C74 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE3BD5A92784FB9900BC9FC7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EE67385626E4270700A28C74 /* BullseyeApp.swift */,
+				EE67385A26E4270800A28C74 /* Assets.xcassets */,
+				EE67385F26E4270800A28C74 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		EE67384A26E4270700A28C74 = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +120,9 @@
 		EE67385526E4270700A28C74 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
-				EE67385626E4270700A28C74 /* BullseyeApp.swift */,
-				EE67385826E4270700A28C74 /* ContentView.swift */,
-				EE67385A26E4270800A28C74 /* Assets.xcassets */,
-				EE67385F26E4270800A28C74 /* Info.plist */,
+				EE3BD5A92784FB9900BC9FC7 /* App */,
+				EE3BD5A82784FB5A00BC9FC7 /* Views */,
+				EE3BD5A72784FB5000BC9FC7 /* Models */,
 				EE67385C26E4270800A28C74 /* Preview Content */,
 			);
 			path = Bullseye;
@@ -421,7 +445,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
 				DEVELOPMENT_TEAM = VUR7TUYD98;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Bullseye/Info.plist;
+				INFOPLIST_FILE = Bullseye/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +467,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
 				DEVELOPMENT_TEAM = VUR7TUYD98;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Bullseye/Info.plist;
+				INFOPLIST_FILE = Bullseye/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
