@@ -48,7 +48,8 @@ struct ContentView: View {
                             .background(Color.accentColor)
                     }
                     .alert(isPresented: $alertIsVisible, content: {
-                        return Alert(title: Text("Hello"), message: Text("NEW MESSAGE"), dismissButton: .default(Text("Dismiss")))
+                        let roundedValue: Int = Int(self.sliderValue.rounded())
+                        return Alert(title: Text("Hello"), message: Text("The sliders value is \(roundedValue)."), dismissButton: .default(Text("Dismiss")))
                     })
                 }
             }
