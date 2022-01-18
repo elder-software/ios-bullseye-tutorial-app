@@ -12,19 +12,11 @@
 		EE67385926E4270700A28C74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67385826E4270700A28C74 /* ContentView.swift */; };
 		EE67385B26E4270800A28C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE67385A26E4270800A28C74 /* Assets.xcassets */; };
 		EE67385E26E4270800A28C74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE67385D26E4270800A28C74 /* Preview Assets.xcassets */; };
-		EE67386926E4270900A28C74 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67386826E4270900A28C74 /* BullseyeTests.swift */; };
-		EE67387426E4270900A28C74 /* BullseyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE67387326E4270900A28C74 /* BullseyeUITests.swift */; };
+		EEDB5652279626B90024161C /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDB5651279626B90024161C /* BullseyeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EE67386526E4270900A28C74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EE67384B26E4270700A28C74 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE67385226E4270700A28C74;
-			remoteInfo = Bullseye;
-		};
-		EE67387026E4270900A28C74 /* PBXContainerItemProxy */ = {
+		EEDB5653279626B90024161C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EE67384B26E4270700A28C74 /* Project object */;
 			proxyType = 1;
@@ -41,12 +33,8 @@
 		EE67385A26E4270800A28C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE67385D26E4270800A28C74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE67385F26E4270800A28C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE67386426E4270900A28C74 /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE67386826E4270900A28C74 /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
-		EE67386A26E4270900A28C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE67386F26E4270900A28C74 /* BullseyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE67387326E4270900A28C74 /* BullseyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeUITests.swift; sourceTree = "<group>"; };
-		EE67387526E4270900A28C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEDB564F279626B90024161C /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDB5651279626B90024161C /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +45,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE67386126E4270900A28C74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE67386C26E4270900A28C74 /* Frameworks */ = {
+		EEDB564C279626B90024161C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,8 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				EE67385526E4270700A28C74 /* Bullseye */,
-				EE67386726E4270900A28C74 /* BullseyeTests */,
-				EE67387226E4270900A28C74 /* BullseyeUITests */,
+				EEDB5650279626B90024161C /* BullseyeTests */,
 				EE67385426E4270700A28C74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,8 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				EE67385326E4270700A28C74 /* Bullseye.app */,
-				EE67386426E4270900A28C74 /* BullseyeTests.xctest */,
-				EE67386F26E4270900A28C74 /* BullseyeUITests.xctest */,
+				EEDB564F279626B90024161C /* BullseyeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,22 +118,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		EE67386726E4270900A28C74 /* BullseyeTests */ = {
+		EEDB5650279626B90024161C /* BullseyeTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE67386826E4270900A28C74 /* BullseyeTests.swift */,
-				EE67386A26E4270900A28C74 /* Info.plist */,
+				EEDB5651279626B90024161C /* BullseyeTests.swift */,
 			);
 			path = BullseyeTests;
-			sourceTree = "<group>";
-		};
-		EE67387226E4270900A28C74 /* BullseyeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EE67387326E4270900A28C74 /* BullseyeUITests.swift */,
-				EE67387526E4270900A28C74 /* Info.plist */,
-			);
-			path = BullseyeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,41 +146,23 @@
 			productReference = EE67385326E4270700A28C74 /* Bullseye.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EE67386326E4270900A28C74 /* BullseyeTests */ = {
+		EEDB564E279626B90024161C /* BullseyeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE67387B26E4270900A28C74 /* Build configuration list for PBXNativeTarget "BullseyeTests" */;
+			buildConfigurationList = EEDB5655279626B90024161C /* Build configuration list for PBXNativeTarget "BullseyeTests" */;
 			buildPhases = (
-				EE67386026E4270900A28C74 /* Sources */,
-				EE67386126E4270900A28C74 /* Frameworks */,
-				EE67386226E4270900A28C74 /* Resources */,
+				EEDB564B279626B90024161C /* Sources */,
+				EEDB564C279626B90024161C /* Frameworks */,
+				EEDB564D279626B90024161C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE67386626E4270900A28C74 /* PBXTargetDependency */,
+				EEDB5654279626B90024161C /* PBXTargetDependency */,
 			);
 			name = BullseyeTests;
 			productName = BullseyeTests;
-			productReference = EE67386426E4270900A28C74 /* BullseyeTests.xctest */;
+			productReference = EEDB564F279626B90024161C /* BullseyeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EE67386E26E4270900A28C74 /* BullseyeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EE67387E26E4270900A28C74 /* Build configuration list for PBXNativeTarget "BullseyeUITests" */;
-			buildPhases = (
-				EE67386B26E4270900A28C74 /* Sources */,
-				EE67386C26E4270900A28C74 /* Frameworks */,
-				EE67386D26E4270900A28C74 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE67387126E4270900A28C74 /* PBXTargetDependency */,
-			);
-			name = BullseyeUITests;
-			productName = BullseyeUITests;
-			productReference = EE67386F26E4270900A28C74 /* BullseyeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -219,18 +170,14 @@
 		EE67384B26E4270700A28C74 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					EE67385226E4270700A28C74 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
-					EE67386326E4270900A28C74 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = EE67385226E4270700A28C74;
-					};
-					EE67386E26E4270900A28C74 = {
-						CreatedOnToolsVersion = 12.5.1;
+					EEDB564E279626B90024161C = {
+						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = EE67385226E4270700A28C74;
 					};
 				};
@@ -249,8 +196,7 @@
 			projectRoot = "";
 			targets = (
 				EE67385226E4270700A28C74 /* Bullseye */,
-				EE67386326E4270900A28C74 /* BullseyeTests */,
-				EE67386E26E4270900A28C74 /* BullseyeUITests */,
+				EEDB564E279626B90024161C /* BullseyeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,14 +211,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE67386226E4270900A28C74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE67386D26E4270900A28C74 /* Resources */ = {
+		EEDB564D279626B90024161C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,34 +231,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE67386026E4270900A28C74 /* Sources */ = {
+		EEDB564B279626B90024161C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE67386926E4270900A28C74 /* BullseyeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE67386B26E4270900A28C74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE67387426E4270900A28C74 /* BullseyeUITests.swift in Sources */,
+				EEDB5652279626B90024161C /* BullseyeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EE67386626E4270900A28C74 /* PBXTargetDependency */ = {
+		EEDB5654279626B90024161C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EE67385226E4270700A28C74 /* Bullseye */;
-			targetProxy = EE67386526E4270900A28C74 /* PBXContainerItemProxy */;
-		};
-		EE67387126E4270900A28C74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EE67385226E4270700A28C74 /* Bullseye */;
-			targetProxy = EE67387026E4270900A28C74 /* PBXContainerItemProxy */;
+			targetProxy = EEDB5653279626B90024161C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,87 +410,43 @@
 			};
 			name = Release;
 		};
-		EE67387C26E4270900A28C74 /* Debug */ = {
+		EEDB5656279626B90024161C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VUR7TUYD98;
-				INFOPLIST_FILE = BullseyeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eldersoftware.BullseyeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bullseye.app/Bullseye";
 			};
 			name = Debug;
 		};
-		EE67387D26E4270900A28C74 /* Release */ = {
+		EEDB5657279626B90024161C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VUR7TUYD98;
-				INFOPLIST_FILE = BullseyeTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eldersoftware.BullseyeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bullseye.app/Bullseye";
-			};
-			name = Release;
-		};
-		EE67387F26E4270900A28C74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VUR7TUYD98;
-				INFOPLIST_FILE = BullseyeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eldersoftware.BullseyeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bullseye;
-			};
-			name = Debug;
-		};
-		EE67388026E4270900A28C74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VUR7TUYD98;
-				INFOPLIST_FILE = BullseyeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.eldersoftware.BullseyeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Bullseye;
 			};
 			name = Release;
 		};
@@ -589,20 +471,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE67387B26E4270900A28C74 /* Build configuration list for PBXNativeTarget "BullseyeTests" */ = {
+		EEDB5655279626B90024161C /* Build configuration list for PBXNativeTarget "BullseyeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE67387C26E4270900A28C74 /* Debug */,
-				EE67387D26E4270900A28C74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EE67387E26E4270900A28C74 /* Build configuration list for PBXNativeTarget "BullseyeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EE67387F26E4270900A28C74 /* Debug */,
-				EE67388026E4270900A28C74 /* Release */,
+				EEDB5656279626B90024161C /* Debug */,
+				EEDB5657279626B90024161C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
