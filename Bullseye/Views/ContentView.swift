@@ -19,25 +19,18 @@ struct ContentView: View {
       VStack {
         VStack {
           VStack {
-            Text("🎯🎯🎯\nPut the Bullseye as close as you can to ".uppercased())
-              .bold()
-              .kerning(2.0)
-              .multilineTextAlignment(.center)
-              .lineSpacing(4.0)
-              .font(.footnote)
-            Text(String(game.target))
-              .kerning(-1.0)
-              .font(.largeTitle)
-              .fontWeight(.black)
+            InstructionsView(game: $game)
             HStack {
               Text("1")
                 .bold()
                 .font(.body)
+                .foregroundColor(Color("TextMain"))
               Slider(value: $sliderValue, in: 1.0...100)
                 .accentColor(.red)
               Text("100")
                 .bold()
                 .font(.body)
+                .foregroundColor(Color("TextMain"))
             }
             .padding()
           }
@@ -69,8 +62,32 @@ struct ContentView: View {
   }
 }
 
+struct InstructionsView: View {
+  
+  @Binding var game: Game
+  
+  var body: some View {
+    VStack {
+      InstructionText(text: "🎯🎯🎯\nPut the Bullseye as close as you can to ")
+        .padding(.leading, 30.0)
+        .padding(.trailing, 30.0)
+      BigNumberText(text: String(game.target))
+    }
+  }
+}
+
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
+    
+    ContentView()
+      .previewLayout(.fixed(width: 568, height: 320))
+    
+    ContentView()
+      .preferredColorScheme(.dark)
+    
+    ContentView()
+      .preferredColorScheme(.dark)
+      .previewLayout(.fixed(width: 568, height: 320))
   }
 }
