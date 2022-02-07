@@ -13,6 +13,7 @@
 		EE67385B26E4270800A28C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE67385A26E4270800A28C74 /* Assets.xcassets */; };
 		EE67385E26E4270800A28C74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE67385D26E4270800A28C74 /* Preview Assets.xcassets */; };
 		EE7389E827A8FF2600A28C72 /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7389E727A8FF2600A28C72 /* TextViews.swift */; };
+		EE7389EA27A9ED4900A28C72 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7389E927A9ED4900A28C72 /* Shapes.swift */; };
 		EEDB5652279626B90024161C /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDB5651279626B90024161C /* BullseyeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		EE67385D26E4270800A28C74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE67385F26E4270800A28C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE7389E727A8FF2600A28C72 /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		EE7389E927A9ED4900A28C72 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		EEDB564F279626B90024161C /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDB5651279626B90024161C /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +72,7 @@
 			children = (
 				EE67385826E4270700A28C74 /* ContentView.swift */,
 				EE7389E727A8FF2600A28C72 /* TextViews.swift */,
+				EE7389E927A9ED4900A28C72 /* Shapes.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				EE67385926E4270700A28C74 /* ContentView.swift in Sources */,
 				EE7389E827A8FF2600A28C72 /* TextViews.swift in Sources */,
+				EE7389EA27A9ED4900A28C72 /* Shapes.swift in Sources */,
 				EE3BD5AB2784FC3100BC9FC7 /* Game.swift in Sources */,
 				EE67385726E4270700A28C74 /* BullseyeApp.swift in Sources */,
 			);
