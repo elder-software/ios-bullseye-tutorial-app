@@ -14,8 +14,7 @@ struct ContentView: View {
   
   var body: some View {
     ZStack {
-      Color("BackgroundColour")
-        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+      BackgroundView(game: $game)
       VStack {
         VStack {
           InstructionsView(game: $game)
@@ -30,7 +29,7 @@ struct ContentView: View {
     }
   }
 }
-
+ 
 struct InstructionsView: View {
   @Binding var game: Game
   
